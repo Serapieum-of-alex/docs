@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "serapeum-github-io"
+version = "0.1.0"
+description = "overall repo"
+authors = ["Mostafa Farrag <moah.farag@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs = "^1.6.1"
+mkdocs-material = "^9.5.49"
+mkdocs-redirects = "^1.2.2"
+mkdocs-autolinks-plugin = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

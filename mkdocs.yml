@@ -1,0 +1,24 @@
+site_name: Serapeum Documentation
+site_description: Centralized documentation for Serapeum GitHub Organization
+site_url: https://serapieum-of-alex.github.io/docs/
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - hydrological-modeling:
+      - Repo 1: hydrological-modeling/digital-rivers.md
+      - Repo 2: hydrological-modeling/hapi.md
+  - Contributing: contributing.md
+  - About: about.md
+
+plugins:
+  - search
+  - autolinks
+  - redirects
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
