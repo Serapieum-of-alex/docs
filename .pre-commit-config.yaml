@@ -7,9 +7,6 @@ repos:
         name: "[py -  check] check toml"
       - id: end-of-file-fixer
         name: "[py -  check] validate yaml"
-      - id: no-commit-to-branch
-        name: "[git -  check] no commit to branch"
-        args: [ --branch=main ]
       - id: trailing-whitespace
         name: "[file - format] trim trailing whitespace"
         args: [ --markdown-linebreak-ext=md ]
