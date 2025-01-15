@@ -42,26 +42,29 @@ theme:
 
 nav:
   - Home: index.md
-  - hydrological-modeling:
-      - Hydrological model: hydrological-modeling/hapi.md
-      - Hydrodynamic model: hydrological-modeling/serapis.md
-  - GIS:
-      - Pyramids: gis/pyramids.md
-      - Digital Rivers: gis/digital-rivers.md
-  - Large language models:
-      - Hugging Face: llm/serapeum.md
-      - Llama-index: llm/llama-utils.md
-  - Data Visualization:
-      - Cleopatra: data-visualization/cleopatra.md
-      - GIS data visualization: data-visualization/digital-earth.md
-  - Statistical-Analysis:
-      - statista: statistics/statista.md
-      - geostatista: statistics/geostatista.md
-  - Cloud:
-      - Unicloud: cloud/unicloud.md
-  - utility-packages:
-      - optimization: utility-packages/oasis.md
-      - serapeum-utils: utility-packages/serapeum-utils.md
+  - Python Packages:
+      - hydrological-modeling:
+          - Hydrological model: python-packages/hydrological-modeling/hapi.md
+          - Hydrodynamic model: python-packages/hydrological-modeling/serapis.md
+      - GIS:
+          - Pyramids: python-packages/gis/pyramids.md
+          - Digital Rivers: python-packages/gis/digital-rivers.md
+      - Large language models:
+          - Hugging Face: python-packages/llm/serapeum.md
+          - Llama-index: python-packages/llm/llama-utils.md
+      - Data Visualization:
+          - Cleopatra: python-packages/data-visualization/cleopatra.md
+          - GIS data visualization: python-packages/data-visualization/digital-earth.md
+      - Statistical-Analysis:
+          - statista: python-packages/statistics/statista.md
+          - geostatista: python-packages/statistics/geostatista.md
+      - Cloud:
+          - Unicloud: python-packages/cloud/unicloud.md
+      - utility-packages:
+          - optimization: python-packages/utility-packages/oasis.md
+          - serapeum-utils: python-packages/utility-packages/serapeum-utils.md
+  - Development tools:
+      - pre-commit hooks: development-tools/pre-commit.md
   - Contributing: contributing.md
   - About: about.md
 
