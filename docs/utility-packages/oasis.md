@@ -61,12 +61,13 @@ python setup.py install
 pathto_your_env\python setup.py install
 ```
 ## pip
-to install the last release you can easly use pip
+to install the latest release, you can use pip
 ```
 pip install Oasis-Optimization
 ```
 ## YML file
-using the environment.yml file included with hapi you can create a new environment with all the dependencies installed with the latest Hapi version
+using the environment.yml file included with the package you can create a new environment with all the dependencies
+installed with the latest Hapi version
 in the master branch
 ```
 conda env create --name Hapi_env -f environment.yml

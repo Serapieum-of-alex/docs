@@ -28,12 +28,9 @@ Current build status
 ![GitHub last commit](https://img.shields.io/github/last-commit/MAfarrag/Hapi)
 ![GitHub forks](https://img.shields.io/github/forks/MAfarrag/hapi?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/MAfarrag/Hapi?style=social)
-![AppVeyor tests (branch)](https://img.shields.io/appveyor/tests/MAfarrag/Ha%5Bi/hydraulic-model)
 
 
 [![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
-
-![Profile views](https://gpvc.arturio.dev/MAfarrag)
 
 
 Current release info
@@ -44,7 +41,7 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-hapi-green.svg)](https://anaconda.org/conda-forge/hapi) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/hapi.svg)](https://anaconda.org/conda-forge/hapi) [![Downloads](https://pepy.tech/badge/hapi-nile)](https://pepy.tech/project/hapi-nile) [![Downloads](https://pepy.tech/badge/hapi-nile/month)](https://pepy.tech/project/hapi-nile)  [![Downloads](https://pepy.tech/badge/hapi-nile/week)](https://pepy.tech/project/hapi-nile)  ![PyPI - Downloads](https://img.shields.io/pypi/dd/hapi-nile?color=blue&style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/MAfarrag/Hapi/total) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/hapi.svg)](https://anaconda.org/conda-forge/hapi) [![PyPI version](https://badge.fury.io/py/HAPI-Nile.svg)](https://badge.fury.io/py/HAPI-Nile) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/hapi/badges/version.svg)](https://anaconda.org/conda-forge/hapi) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/hapi.svg)](https://anaconda.org/conda-forge/hapi) [![Join the chat at https://gitter.im/Hapi-Nile/Hapi](https://badges.gitter.im/Hapi-Nile/Hapi.svg)](https://gitter.im/Hapi-Nile/Hapi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) |
 
 
-![Hapi](/docs/img/Hapi4.png) ![Hapi](/docs/img/name.png)
+![Hapi](/docs/images/hapi/Hapi4.png) ![Hapi](/docs/images/hapi/name.png)
 
 
 Hapi - Hydrological library for Python
@@ -54,7 +51,7 @@ model & Muskingum routing method at a catchment scale (Farrag & Corzo, 2021), Ha
 (spatial discretization - cell size, temporal resolution, parameterization approaches and calibration (Farrag et al., 2021)).
 
 
-![1](/docs/img/Picture1.png)  ![2](/docs/img/Picture2.png)
+![1](/docs/images/hapi/Picture1.png)  ![2](/docs/images/hapi/Picture2.png)
 
 Hapi
 
@@ -137,9 +134,3 @@ Quick start
 ```
 
 [other code samples](https://hapi-hm.readthedocs.io/en/latest/?badge=latest)
-
-## Naming Convention
-[PEP8](https://peps.python.org/pep-0008/#naming-conventions)
-- module names: lower case word, preferably one word if not, separate words with underscores (module.py, my_module.py).
-- class names: PascalCase (Model, MyClass).
-- class method/function: CamelCase(getFile, readConfig).should have a verb one them, because they perform some action

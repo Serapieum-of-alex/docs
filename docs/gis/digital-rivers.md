@@ -24,16 +24,6 @@ digitalrivers - GIS utility package
 =====================================================================
 **digitalrivers** is a GIS utility package using gdal, ....
 
-digitalrivers
-
-![1](/docs/images/package-work-flow/overall.png)
-
-Main Features
--------------
-
-- GIS modules to enable the modeler to fully prepare the meteorological inputs and do all the preprocessing
-  needed to build the model (align rasters with the DEM), in addition to various methods to manipulate and
-  convert different forms of distributed data (rasters, NetCDF, shapefiles)
 
 Future work
 -------------
@@ -79,7 +69,3 @@ Quick start
 ```
 
 [other code samples](https://digitalrivers.readthedocs.io/en/latest/?badge=latest)
-
-## Coverage
-
-[![codecov](https://codecov.io/gh/Serapieum-of-alex/digitalrivers/branch/main/graphs/sunburst.svg?token=g0DV4dCa8N)](https://codecov.io/gh/Serapieum-of-alex/digitalrivers)

@@ -70,8 +70,10 @@ from digitalearth.map import Map
 src = gdal.Open("examples/data/acc4000.tif")
 fig, ax = Map.plot(src, title="Flow Accumulation", cbar_label="Flow Accumulation")  
 ```
-![Flowaccumulation](examples/images/flow_accumulation.png)
-```
+![Flowaccumulation](/docs/images/digital-earth/flow_accumulation.png)
+```python
+import pandas as pd
+from digitalearth.map import Map
 points = pd.read_csv("examples/data/points.csv")
 point_color = "blue"
 point_size = 100
@@ -98,5 +100,5 @@ fig, ax = Map.plot(
             cbar_label="Flow Accumulation"
         )
 ```
-![Flowaccumulation](examples/images/flow_accumulation_with_labels.png)
+![Flowaccumulation](/docs/images/digital-earth/flow_accumulation_with_labels.png)
 [other code samples](https://digitalearth.readthedocs.io/en/latest/?badge=latest)

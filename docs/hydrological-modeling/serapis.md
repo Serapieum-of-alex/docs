@@ -40,19 +40,12 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-serapis-green.svg)](https://anaconda.org/conda-forge/serapis) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/serapis.svg)](https://anaconda.org/conda-forge/serapis) [![Downloads](https://pepy.tech/badge/serapis)](https://pepy.tech/project/serapis) [![Downloads](https://pepy.tech/badge/serapis/month)](https://pepy.tech/project/serapis)  [![Downloads](https://pepy.tech/badge/serapis/week)](https://pepy.tech/project/serapis)  ![PyPI - Downloads](https://img.shields.io/pypi/dd/serapis?color=blue&style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/Serapieum-of-alex/serapis/total) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/serapis.svg)](https://anaconda.org/conda-forge/serapis) [![PyPI version](https://badge.fury.io/py/serapis.svg)](https://badge.fury.io/py/serapis) [![Anaconda-Server Badge](https://anaconda.org/conda-forge/serapis/badges/version.svg)](https://anaconda.org/conda-forge/serapis) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/serapis.svg)](https://anaconda.org/conda-forge/serapis) [![Join the chat at https://gitter.im/serapis/serapis](https://badges.gitter.im/serapis/serapis.svg)](https://gitter.im/serapis/serapis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) |
 
 
-![serapis](/docs/img/serapis4.png) ![serapis](/docs/img/name.png)
 
-
-serapis - Hydrological library for Python
+serapis - hydrodynamic model library for Python
 =====================================================================
-**serapis** is an open-source Python Framework for building raster-based conceptual distributed hydrological models using HBV96 lumped
-model & Muskingum routing method at a catchment scale (Farrag & Corzo, 2021), serapis gives a high degree of flexibility to all components of the model
-(spatial discretization - cell size, temporal resolution, parameterization approaches and calibration (Farrag et al., 2021)).
+**serapis** is an open-source Python Framework for building hydrodynamic models using 1D Saint-Venant equations at
+a river scale.
 
-
-![1](/docs/img/Picture1.png)  ![2](/docs/img/Picture2.png)
-
-serapis
 
 
 Installing serapis
@@ -90,9 +83,3 @@ Quick start
 ```
 
 [other code samples](https://serapis.readthedocs.io/en/latest/?badge=latest)
-
-## Naming Convention
-[PEP8](https://peps.python.org/pep-0008/#naming-conventions)
-- module names: lower case word, preferably one word if not, separate words with underscores (module.py, my_module.py).
-- class names: PascalCase (Model, MyClass).
-- class method/function: CamelCase(getFile, readConfig).should have a verb one them, because they perform some action
