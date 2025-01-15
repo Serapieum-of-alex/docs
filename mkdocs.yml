@@ -43,8 +43,25 @@ theme:
 nav:
   - Home: index.md
   - hydrological-modeling:
-      - Repo 1: hydrological-modeling/digital-rivers.md
-      - Repo 2: hydrological-modeling/hapi.md
+      - Hydrological model: hydrological-modeling/hapi.md
+      - Hydrodynamic model: hydrological-modeling/serapis.md
+  - GIS:
+      - Pyramids: gis/pyramids.md
+      - Digital Rivers: gis/digital-rivers.md
+  - Large language models:
+      - Hugging Face: llm/serapeum.md
+      - Llama-index: llm/llama-utils.md
+  - Data Visualization:
+      - Cleopatra: data-visualization/cleopatra.md
+      - GIS data visualization: data-visualization/digital-earth.md
+  - Statistical-Analysis:
+      - statista: statistics/statista.md
+      - geostatista: statistics/geostatista.md
+  - Cloud:
+      - Unicloud: cloud/unicloud.md
+  - utility-packages:
+      - optimization: utility-packages/oasis.md
+      - serapeum-utils: utility-packages/serapeum-utils.md
   - Contributing: contributing.md
   - About: about.md
 
@@ -83,6 +100,10 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.highlight
+  - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
   social:
