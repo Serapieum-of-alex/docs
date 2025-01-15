@@ -63,6 +63,11 @@ nav:
       - utility-packages:
           - optimization: python-packages/utility-packages/oasis.md
           - serapeum-utils: python-packages/utility-packages/serapeum-utils.md
+  - Medium Articles:
+      - Software Development: medium-articles/software-development.md
+      - Data Science: medium-articles/data-science.md
+      - Hydrology and Hydraulics: medium-articles/hydrology-and-hydraulics.md
+      - GIS: medium-articles/gis.md
   - Development tools:
       - pre-commit hooks: development-tools/pre-commit.md
   - Contributing: contributing.md
