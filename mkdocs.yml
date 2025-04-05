@@ -71,6 +71,7 @@ nav:
       - GIS: medium-articles/gis.md
   - Development tools:
       - pre-commit hooks: development-tools/pre-commit.md
+      - branch/pull request naming: development-tools/branch-naming-convention.md
   - Contributing: contributing.md
   - About: about.md
 
