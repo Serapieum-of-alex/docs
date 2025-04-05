@@ -1,4 +1,4 @@
-# 🌿 Git Branch Naming Convention (Based on Conventional Commits)
+# Git Branch Naming Convention (Based on Conventional Commits)
 
 This document describes the branch naming convention used in this project, inspired by the
 [Conventional Commits](https://www.conventionalcommits.org/) specification.
@@ -8,7 +8,7 @@ Following a consistent naming pattern improves clarity and makes collaboration s
 
 ## Branch Naming Structure
 
-### ✅ Recommended Pattern
+### Recommended Pattern
 
 Use the following structure for naming branches:
 
@@ -25,7 +25,7 @@ Or, if linking to an issue or ticket:
 
 ---
 
-### 🔧 Examples
+### Examples
 
 - `feat/user-login`
 - `fix/typo-in-readme`
@@ -37,7 +37,7 @@ Or, if linking to an issue or ticket:
 
 ---
 
-### 💡 Allowed `<type>` Values
+### Allowed `<type>` Values
 
 | Type       | Description                          |
 |------------|--------------------------------------|
@@ -52,7 +52,7 @@ Or, if linking to an issue or ticket:
 
 ---
 
-### 🧼 Tips
+### Tips
 
 - Use **kebab-case**: `my-new-feature`, not `my_new_feature` or `MyNewFeature`.
 - Keep it short but descriptive.
@@ -83,14 +83,14 @@ If your PR is linked to an issue or ticket, you can prefix or suffix with the ID
 - `feat: add export button (closes #123)`
 - `fix: handle null values in parser [JIRA-456]`
 
-### 🧼 Tips
+### Tips
 - Use an imperative voice, just like in commit messages: “add” instead of “added”.
 - Keep it concise and focused on the goal of the PR.
 - Use the same <type> keywords as in Conventional Commits.
 - Link the PR to the related issue/ticket either in the title or body (or both!).
 
 
-## 📚 Reference
+## Reference
 
 - [Conventional Commits](https://www.conventionalcommits.org/)
 
