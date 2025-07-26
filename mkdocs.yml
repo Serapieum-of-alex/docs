@@ -64,6 +64,7 @@ nav:
       - utility-packages:
           - optimization: python-packages/utility-packages/oasis.md
           - serapeum-utils: python-packages/utility-packages/serapeum-utils.md
+          - HPC: python-packages/utility-packages/hpc.md
   - Medium Articles:
       - Software Development: medium-articles/software-development.md
       - Data Science: medium-articles/data-science.md
